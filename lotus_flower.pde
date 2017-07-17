@@ -18,9 +18,8 @@ void draw() {
   line(0+l*cos(a), 0, 0, 0+l*sin(a));
   stroke (255, 255, 255, 60);
   if (frameCount == 1421) {
-    noLoop ();
+    noLoop();
   } 
-  ;
   a=a+ainc;
   b=b+binc;
 }
